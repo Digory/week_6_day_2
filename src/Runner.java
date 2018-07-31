@@ -11,6 +11,9 @@ public class Runner {
         System.out.println(digory.borrowBookFromLibrary(library));
         System.out.println(digory.borrowBookFromLibrary(library));
 
+        System.out.println(library.getAmountOfGenre(BookGenre.OTHER));
+        System.out.println(library.getAmountOfGenre(BookGenre.NONFICTION));
+
         digory.printCollection();
     }
 }
